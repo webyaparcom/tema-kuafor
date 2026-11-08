@@ -1,0 +1,40 @@
+{
+  "id": "vk0dopsfhj",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Danışmadan finişe tek salon.",
+    "en": "From consultation to finish in one salon.",
+    "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+  },
+  "keyword": {
+    "tr": "Bakım",
+    "en": "The care",
+    "ar": "العناية"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "qrgunw",
+      "pdsef2"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:39.054Z",
+  "update": "2026-11-06T00:01:12.310Z"
+}
