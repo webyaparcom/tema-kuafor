@@ -22,8 +22,8 @@
   "pathnext": "",
   "description": {
     "tr": "Saç ve sakal işi; görseller temsilîdir.",
-    "en": "Hair and beard work; images are representative.",
-    "ar": "عمل شعر ولحية؛ الصور تمثيلية."
+    "en": "Hair and beard care; images are representative.",
+    "ar": "خدمات الشعر واللحية؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-06T00:01:12.314Z",
+  "update": "2026-11-12T07:36:21.955Z",
   "date": "2026-10-30"
 }

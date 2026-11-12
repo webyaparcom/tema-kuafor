@@ -6,13 +6,13 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Danışmadan finişe tek salon.",
-    "en": "From consultation to finish in one salon.",
-    "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+    "tr": "Danışmadan finişe; tek salonda.",
+    "en": "From consultation to finish, in one salon.",
+    "ar": "من الاستشارة إلى اللمسات الأخيرة في صالون واحد."
   },
   "keyword": {
     "tr": "Bakım",
-    "en": "The care",
+    "en": "Care",
     "ar": "العناية"
   },
   "path": "hizmetler",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:39.054Z",
-  "update": "2026-11-06T00:01:12.310Z"
+  "update": "2026-11-12T07:36:21.951Z"
 }
