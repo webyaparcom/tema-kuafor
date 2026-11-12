@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Saç ve sakal işi; görseller temsilîdir.",
-    "en": "Hair and beard work; images are representative.",
-    "ar": "عمل شعر ولحية؛ الصور تمثيلية."
+    "tr": "Kadın ve erkek saç kesimi, boya, sakal tıraşı ve gelin saçı; görseller temsilîdir.",
+    "en": "Women’s and men’s haircuts, colour, beard shaving and bridal hair; images are representative.",
+    "ar": "قص شعر للنساء والرجال وصبغة وحلاقة لحية وتسريحات العروس؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "saç, sakal, kuafor",
-    "en": "hair, beard, barber",
-    "ar": "شعر، لحية، حلاق"
+    "tr": "kuaför, berber, saç kesimi, sakal, gelin saçı",
+    "en": "hairdresser, barber, haircut, beard, bridal hair",
+    "ar": "كوافير، حلاق، قص شعر، لحية، تسريحة عروس"
   },
   "category": "Kurumsal",
   "name": "Sakal & Saç",

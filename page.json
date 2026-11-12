@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Danışmadan finişe tek salon.",
-        "en": "From consultation to finish in one salon.",
-        "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+        "tr": "Danışmadan finişe; tek salonda.",
+        "en": "From consultation to finish, in one salon.",
+        "ar": "من الاستشارة إلى اللمسات الأخيرة في صالون واحد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -50,8 +50,8 @@
       "pathnext": "",
       "description": {
         "tr": "Saç ve sakal işi; görseller temsilîdir.",
-        "en": "Hair and beard work; images are representative.",
-        "ar": "عمل شعر ولحية؛ الصور تمثيلية."
+        "en": "Hair and beard care; images are representative.",
+        "ar": "خدمات الشعر واللحية؛ الصور تمثيلية."
       }
     },
     {

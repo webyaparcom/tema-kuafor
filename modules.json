@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "guzellik-hizmet-sac.webp",
+        "img": "guzellik-hero-salon.webp",
         "video": "",
         "poster": "",
         "alt": "Sakal & Saç",
@@ -1534,29 +1545,29 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Usta eli",
-          "en": "Master hand",
-          "ar": "يد خبير"
+          "en": "A skilled hand",
+          "ar": "لمسة محترف"
         },
         "title": {
-          "tr": "Saçın, keskin biçimde",
-          "en": "Hair, in sharp form",
-          "ar": "شعر بشكل حاد"
+          "tr": "Saç ve sakalda usta eli",
+          "en": "A master’s touch for hair and beard",
+          "ar": "لمسة محترف للشعر واللحية"
         },
         "metin": {
-          "tr": "Sakal & Saç, saç ve sakal kesimi sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Sakal cuts hair and beard. Images are representative and text is fictional.",
-          "ar": "يقدم لحا وشعر قصّة شعر ولحية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Sakal & Saç; kadın ve erkek saç kesimi, boya, sakal tıraşı ve gelin saçı sunan bir kuaför salonudur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Sakal & Saç is a hair salon offering women’s and men’s haircuts, colour, beard shaving and bridal hair. Images are representative and text is fictional.",
+          "ar": "Sakal & Saç صالون تجميل يقدّم قص الشعر للنساء والرجال والصبغة وحلاقة اللحية وتسريحات العروس. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Hizmetler",
           "en": "Services",
-          "ar": "خدمات"
+          "ar": "الخدمات"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Randevu iste",
-          "en": "Book",
-          "ar": "احجز"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Rakamlarla salonumuz",
+          "en": "Our salon in numbers",
+          "ar": "صالوننا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 8,
+          "deger": 12,
           "sonek": "",
-          "ikon": "styler",
+          "ikon": "content_cut",
           "etiket": {
-            "tr": "Saç stili",
-            "en": "Hair styles",
-            "ar": "تسريحات الشعر"
+            "tr": "Hizmet çeşidi",
+            "en": "Services offered",
+            "ar": "نوع خدمة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1629,12 +1640,12 @@
         },
         {
           "deger": 90,
-          "sonek": " %",
-          "ikon": "face_retouching",
+          "sonek": "%",
+          "ikon": "favorite",
           "etiket": {
-            "tr": "Memnun",
-            "en": "Satisfied",
-            "ar": "راضون"
+            "tr": "Memnun müşteri",
+            "en": "Happy clients",
+            "ar": "عملاء راضون"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,13 +1654,13 @@
           }
         },
         {
-          "deger": 3,
+          "deger": 30,
           "sonek": "",
-          "ikon": "palette",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Renk tonu",
-            "en": "Color tones",
-            "ar": "نغمات اللون"
+            "tr": "Ortalama kesim süresi (dk)",
+            "en": "Average haircut time (min)",
+            "ar": "متوسط مدة القص (دقيقة)"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1663,8 +1674,8 @@
           "ikon": "groups",
           "etiket": {
             "tr": "Uzman",
-            "en": "Specialists",
-            "ar": "أخصائيون"
+            "en": "Stylists",
+            "ar": "مختص"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1696,97 +1707,97 @@
         "badgecolor": "#ffffff",
         "badge": {
           "tr": "Bakım",
-          "en": "The care",
+          "en": "Care",
           "ar": "العناية"
         },
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Neler yapıyoruz?",
+          "en": "What do we do?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Danışmadan finişe tek salon.",
-          "en": "From consultation to finish in one salon.",
-          "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+          "tr": "Danışmadan finişe; tek salonda.",
+          "en": "From consultation to finish, in one salon.",
+          "ar": "من الاستشارة إلى اللمسات الأخيرة في صالون واحد."
         }
       },
       "data": [
         {
-          "icon": "face_retouching",
+          "icon": "content_cut",
           "name": {
-            "tr": "Cilt bakımı",
-            "en": "Skin care",
-            "ar": "العناية بالبشرة"
+            "tr": "Saç kesimi ve fön",
+            "en": "Haircut and blow-dry",
+            "ar": "قص الشعر والسشوار"
           },
           "description": {
-            "tr": "Temizlik, buhar ve maske adımı.",
-            "en": "Cleansing, steam and mask steps.",
-            "ar": "خطوات التنظيف والبخار والقناع."
-          }
-        },
-        {
-          "icon": "styler",
-          "name": {
-            "tr": "Kısa/uzun kesim",
-            "en": "Short/long cut",
-            "ar": "قص قصير/طويل"
-          },
-          "description": {
-            "tr": "Kuru ve Islak kesim (demo).",
-            "en": "Dry and wet cut (demo).",
-            "ar": "قص جاف ورطب (تجريبي)."
+            "tr": "Kadın ve erkek kesimi; kuru ve ıslak kesim seçenekleri.",
+            "en": "Women’s and men’s cuts, dry or wet.",
+            "ar": "قص للنساء والرجال، جاف أو مبلل."
           }
         },
         {
           "icon": "palette",
           "name": {
             "tr": "Renk ve boya",
-            "en": "Color and dye",
-            "ar": "اللون والصباغة"
+            "en": "Colour and dye",
+            "ar": "الصبغة والألوان"
           },
           "description": {
-            "tr": "Deklaratif ton ile kalıcı renk.",
-            "en": "Statement tone with permanent color.",
-            "ar": "نبرة مميزة مع لون دائم."
-          }
-        },
-        {
-          "icon": "spa",
-          "name": {
-            "tr": "Spa ve masöz",
-            "en": "Spa and massage",
-            "ar": "سبا ومساج"
-          },
-          "description": {
-            "tr": "Kafa, omuz ve sırt masazı.",
-            "en": "Head, shoulder and back massage.",
-            "ar": "تدليك لرأس الكتف والظهر."
-          }
-        },
-        {
-          "icon": "nail_care",
-          "name": {
-            "tr": "Manikür",
-            "en": "Manicure",
-            "ar": "مانيكير"
-          },
-          "description": {
-            "tr": "El, tırnak ve oj (demo).",
-            "en": "Hand, nail and polish (demo).",
-            "ar": "يد وأظافر وطلاء (تجريبي)."
+            "tr": "Boya, röfle ve ton düzeltme; saça uygun ürünle.",
+            "en": "Colour, highlights and tone correction with products suited to your hair.",
+            "ar": "صبغة وخصلات وتصحيح الدرجة بمنتجات تناسب شعرك."
           }
         },
         {
           "icon": "auto_awesome",
           "name": {
-            "tr": "Gelin & damat",
-            "en": "Bride & groom",
-            "ar": "العروس والعريس"
+            "tr": "Gelin ve damat hazırlığı",
+            "en": "Bridal and groom styling",
+            "ar": "تجهيز العروس والعريس"
           },
           "description": {
-            "tr": "Düğün günü saç ve sakal hazırlığı.",
-            "en": "Hair and beard preparation for the wedding day.",
-            "ar": "تجهيز الشعر واللحية ليوم الزفاف."
+            "tr": "Düğün günü saç, sakal ve deneme randevusu.",
+            "en": "Hair and beard on the wedding day, plus a trial appointment.",
+            "ar": "شعر ولحية يوم الزفاف مع موعد تجريبي."
+          }
+        },
+        {
+          "icon": "face",
+          "name": {
+            "tr": "Sakal ve tıraş",
+            "en": "Beard and shave",
+            "ar": "اللحية والحلاقة"
+          },
+          "description": {
+            "tr": "Klasik ustura tıraşı, sakal şekillendirme ve bakımı.",
+            "en": "Classic razor shave, beard shaping and care.",
+            "ar": "حلاقة كلاسيكية بالموس وتشكيل اللحية والعناية بها."
+          }
+        },
+        {
+          "icon": "spa",
+          "name": {
+            "tr": "Saç bakımı",
+            "en": "Hair treatments",
+            "ar": "العناية بالشعر"
+          },
+          "description": {
+            "tr": "Keratin, maske ve onarıcı bakım adımları.",
+            "en": "Keratin, masks and repairing treatment steps.",
+            "ar": "كيراتين وأقنعة وخطوات عناية مرمّمة."
+          }
+        },
+        {
+          "icon": "child_care",
+          "name": {
+            "tr": "Çocuk kesimi",
+            "en": "Children’s cuts",
+            "ar": "قص شعر الأطفال"
+          },
+          "description": {
+            "tr": "Çocuklar için sabırlı ve kısa süreli kesim.",
+            "en": "Patient, quick haircuts for children.",
+            "ar": "قصات سريعة وبصبر للأطفال."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Salonda",
+          "en": "In the salon",
+          "ar": "في الصالون"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda yeni görünüm",
+          "en": "A new look in four steps",
+          "ar": "مظهر جديد في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Randevudan finişe.",
+          "en": "From appointment to finish.",
+          "ar": "من الموعد إلى اللمسات الأخيرة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,40 +1847,40 @@
         {
           "year": "01",
           "title": {
-            "tr": "Danışma",
-            "en": "Consultation",
-            "ar": "استشارة"
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "الموعد"
           },
           "text": {
-            "tr": "Saç ve cilt analizi yapılır.",
-            "en": "Hair and skin analysis is done.",
-            "ar": "يُجرى تحليل الشعر والبشرة."
+            "tr": "Gün, saat ve hizmet seçilir.",
+            "en": "Pick a day, time and service.",
+            "ar": "يُختار اليوم والوقت والخدمة."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Randevu",
-            "en": "Appointment",
-            "ar": "موعد"
+            "tr": "Danışma",
+            "en": "Consultation",
+            "ar": "الاستشارة"
           },
           "text": {
-            "tr": "Randevu ve fiyat onayı.",
-            "en": "Appointment and price confirmation.",
-            "ar": "موعد وتأكد السعر."
+            "tr": "Saç yapısı ve istek konuşulur.",
+            "en": "We discuss your hair type and wishes.",
+            "ar": "نناقش نوع شعرك ورغباتك."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Uygulama",
-            "en": "Application",
-            "ar": "التطبيق"
+            "en": "Service",
+            "ar": "التنفيذ"
           },
           "text": {
-            "tr": "Kesim, renk ve bakım uygulanır.",
-            "en": "Cut, color and care are applied.",
-            "ar": "يُطبَّق القص واللون والعناية."
+            "tr": "Kesim, boya veya bakım uygulanır.",
+            "en": "The cut, colour or treatment is carried out.",
+            "ar": "يُنفَّذ القص أو الصبغ أو العناية."
           }
         },
         {
@@ -1877,12 +1888,12 @@
           "title": {
             "tr": "Finiş",
             "en": "Finish",
-            "ar": "الإنهاء"
+            "ar": "اللمسات الأخيرة"
           },
           "text": {
-            "tr": "Şekillendirme ve bakım önerisi.",
-            "en": "Styling and aftercare advice.",
-            "ar": "تصفيف ونصائح للعناية اللاحقة."
+            "tr": "Fön, şekillendirme ve bakım önerisi.",
+            "en": "Blow-dry, styling and care advice.",
+            "ar": "سشوار وتصفيف ونصائح للعناية."
           }
         }
       ],
@@ -1916,9 +1927,9 @@
           "ar": "فريقنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizinle ilgilenen ustalar",
+          "en": "The stylists who look after you",
+          "ar": "المختصون الذين يعتنون بك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,14 +1943,14 @@
         {
           "name": "Leyla Ş.",
           "role": {
-            "tr": "Renk Uzmanı",
-            "en": "Colorist",
-            "ar": "أخصائية تلوين الشعر"
+            "tr": "Renk uzmanı",
+            "en": "Colour specialist",
+            "ar": "خبيرة ألوان"
           },
           "bio": {
-            "tr": "10 yıl renk.",
-            "en": "10 years of color.",
-            "ar": "١٠ سنوات في اللون."
+            "tr": "10 yıl boya ve röfle.",
+            "en": "10 years of colour and highlights.",
+            "ar": "10 سنوات في الصبغة والخصلات."
           },
           "img": ""
         },
@@ -1948,26 +1959,26 @@
           "role": {
             "tr": "Berber",
             "en": "Barber",
-            "ar": "حلّاقة"
+            "ar": "حلاقة"
           },
           "bio": {
-            "tr": "7 yıl bakım.",
-            "en": "7 years of care.",
-            "ar": "٧ سنوات في العناية."
+            "tr": "7 yıl sakal ve klasik tıraş.",
+            "en": "7 years of beard work and classic shaves.",
+            "ar": "7 سنوات في اللحية والحلاقة الكلاسيكية."
           },
           "img": ""
         },
         {
           "name": "Ebru K.",
           "role": {
-            "tr": "Saç Stilisti",
+            "tr": "Saç stilisti",
             "en": "Hair stylist",
             "ar": "مصففة شعر"
           },
           "bio": {
-            "tr": "5 yıl gelin saçı.",
-            "en": "5 years of bridal hair.",
-            "ar": "٥ سنوات في تسريحات العرائس."
+            "tr": "5 yıl gelin saçı ve fön.",
+            "en": "5 years of bridal hair and blow-drying.",
+            "ar": "5 سنوات في تسريحات العروس والسشوار."
           },
           "img": ""
         }
@@ -1998,13 +2009,13 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
+          "en": "What our clients say",
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
@@ -2020,45 +2031,45 @@
           "name": "Ayşe T.",
           "role": {
             "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "en": "Client",
+            "ar": "عميلة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Renk istenildiği gibi geldi.",
-            "en": "The color came as requested.",
-            "ar": "جاء اللون كما طلب."
+            "tr": "Renk istediğim tonda çıktı.",
+            "en": "The colour came out in exactly the tone I wanted.",
+            "ar": "خرجت الصبغة بالدرجة التي أردتها تمامًا."
           }
         },
         {
           "name": "Derya B.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Gelin",
+            "en": "Bride",
+            "ar": "عروس"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Bakım sonrası cilt aydınlık.",
-            "en": "Skin is bright after care.",
-            "ar": "البشرة مشرق بعد العناية."
+            "tr": "Gelin saçı gün boyunca dağılmadı.",
+            "en": "My bridal hairstyle held all day.",
+            "ar": "ثبتت تسريحة العروس طوال اليوم."
           }
         },
         {
           "name": "İ. Şahin.",
           "role": {
             "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "en": "Client",
+            "ar": "عميل"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Randevu saatine uygun.",
-            "en": "Appropriate to the appointment time.",
-            "ar": "تتناسب مع وقت الموعد."
+            "tr": "Randevu saatine uyuldu; sakal şekli tam istediğim gibi.",
+            "en": "The appointment started on time; my beard shape is just as I wanted.",
+            "ar": "بدأ الموعد في وقته وجاء شكل اللحية كما أردت."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "6px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Salonda neler yapılır?",
+          "en": "What happens in the salon?",
+          "ar": "ماذا يحدث في الصالون؟"
         },
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Kesim, renk ve gelin saçı",
+          "en": "Cuts, colour and bridal hair",
+          "ar": "قص وصبغة وتسريحات العروس"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,33 @@
       "data": [
         {
           "baslik": {
-            "tr": "Cilt bakımı",
-            "en": "Skin care",
-            "ar": "العناية بالبشرة"
+            "tr": "Saç kesimi ve fön",
+            "en": "Haircut and blow-dry",
+            "ar": "قص الشعر والسشوار"
           },
           "metin": {
-            "tr": "Temizlik, buhar ve maske adımı.",
-            "en": "Cleansing, steam and mask steps.",
-            "ar": "خطوات التنظيف والبخار والقناع."
+            "tr": "Kadın ve erkek kesimi; kuru ve ıslak kesim seçenekleri.",
+            "en": "Women’s and men’s cuts, dry or wet.",
+            "ar": "قص للنساء والرجال، جاف أو مبلل."
+          },
+          "img": "guzellik-hizmet-sac.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Renk ve boya",
+            "en": "Colour and dye",
+            "ar": "الصبغة والألوان"
+          },
+          "metin": {
+            "tr": "Boya, röfle ve ton düzeltme; saça uygun ürünle.",
+            "en": "Colour, highlights and tone correction with products suited to your hair.",
+            "ar": "صبغة وخصلات وتصحيح الدرجة بمنتجات تناسب شعرك."
           },
           "img": "guzellik-sonra-sac.webp",
           "alt": {
@@ -2145,35 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Kısa/uzun kesim",
-            "en": "Short/long cut",
-            "ar": "قص قصير/طويل"
+            "tr": "Gelin ve damat hazırlığı",
+            "en": "Bridal and groom styling",
+            "ar": "تجهيز العروس والعريس"
           },
           "metin": {
-            "tr": "Kuru ve Islak kesim (demo).",
-            "en": "Dry and wet cut (demo).",
-            "ar": "قص جاف ورطب (تجريبي)."
+            "tr": "Düğün günü saç, sakal ve deneme randevusu.",
+            "en": "Hair and beard on the wedding day, plus a trial appointment.",
+            "ar": "شعر ولحية يوم الزفاف مع موعد تجريبي."
           },
-          "img": "guzellik-once-sac.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Renk ve boya",
-            "en": "Color and dye",
-            "ar": "اللون والصباغة"
-          },
-          "metin": {
-            "tr": "Deklaratif ton ile kalıcı renk.",
-            "en": "Statement tone with permanent color.",
-            "ar": "نبرة مميزة مع لون دائم."
-          },
-          "img": "guzellik-galeri-2.webp",
+          "img": "guzellik-galeri-1.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "6px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Çalıştığımız işletmeler",
+          "en": "Businesses we work with",
+          "ar": "الأعمال التي نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أعمال افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Cilt"
+          "name": "Demo Gelinlik"
         },
         {
-          "name": "Demo Saç"
+          "name": "Demo Fotoğraf Stüdyosu"
         },
         {
-          "name": "Demo Sakal"
+          "name": "Demo Düğün Salonu"
         },
         {
-          "name": "Demo Spa"
+          "name": "Demo Butik"
         },
         {
-          "name": "Demo Oj"
+          "name": "Demo Makyaj"
         },
         {
-          "name": "Demo Gelin"
+          "name": "Demo Güzellik Ürünleri"
         }
       ],
       "veri": {
@@ -2291,64 +2302,104 @@
           "ar": "الأسئلة الشائعة"
         },
         "title": {
-          "tr": "Sıkça sorulan sorular",
-          "en": "Frequently asked questions",
-          "ar": "الأسئلة الشائعة"
+          "tr": "Salon hakkında sorular",
+          "en": "Questions about the salon",
+          "ar": "أسئلة حول الصالون"
         },
         "description": {
-          "tr": "Merak edilenler ve kısa yanıtlar.",
-          "en": "Common questions and short answers.",
-          "ar": "أسئلة متكررة وإجابات موجزة."
+          "tr": "Randevu, gelin saçı ve fiyat üzerine kısa yanıtlar.",
+          "en": "Short answers on appointments, bridal hair and pricing.",
+          "ar": "إجابات موجزة عن المواعيد وتسريحات العروس والأسعار."
         },
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
       },
       "data": [
         {
+          "question": {
+            "tr": "Randevusuz gelebilir miyim?",
+            "en": "Can I walk in without an appointment?",
+            "ar": "هل يمكنني الحضور دون موعد؟"
+          },
+          "answer": {
+            "tr": "Yer varsa evet; yoğun günlerde randevu önerilir (demo bilgisi).",
+            "en": "Yes if there is space; an appointment is recommended on busy days (demo information).",
+            "ar": "نعم إذا توفر مكان؛ ويُنصح بالحجز في الأيام المزدحمة (معلومة تجريبية)."
+          },
           "soru": {
-            "tr": "Kalıcılık ne kadar?",
-            "en": "How long does it last?",
-            "ar": "كم المدة الدائمة?"
+            "tr": "Randevusuz gelebilir miyim?",
+            "en": "Can I walk in without an appointment?",
+            "ar": "هل يمكنني الحضور دون موعد؟"
           },
           "cevap": {
-            "tr": "Cilt tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by skin type; this demo text gives no example.",
-            "ar": "تتغير حسب نوع البشرة؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Yer varsa evet; yoğun günlerde randevu önerilir (demo bilgisi).",
+            "en": "Yes if there is space; an appointment is recommended on busy days (demo information).",
+            "ar": "نعم إذا توفر مكان؛ ويُنصح بالحجز في الأيام المزدحمة (معلومة تجريبية)."
           }
         },
         {
+          "question": {
+            "tr": "Gelin saçı için ne zaman randevu almalıyım?",
+            "en": "When should I book bridal hair?",
+            "ar": "متى أحجز تسريحة العروس؟"
+          },
+          "answer": {
+            "tr": "En az bir hafta önce; deneme saçı için ayrıca randevu verilir.",
+            "en": "At least a week ahead; a separate trial appointment is offered.",
+            "ar": "قبل أسبوع على الأقل؛ ويُعطى موعد منفصل للتجربة."
+          },
           "soru": {
-            "tr": "Özel gün takvimi nasıl?",
-            "en": "How is the special-day calendar?",
-            "ar": "كيف تقويم المناسبات الخاصة?"
+            "tr": "Gelin saçı için ne zaman randevu almalıyım?",
+            "en": "When should I book bridal hair?",
+            "ar": "متى أحجز تسريحة العروس؟"
           },
           "cevap": {
-            "tr": "En az bir hafta önceden randevu alınır.",
-            "en": "Appointments are made at least one week in advance.",
-            "ar": "يُؤخذ الموعد قبل أسبوع على الأقل."
+            "tr": "En az bir hafta önce; deneme saçı için ayrıca randevu verilir.",
+            "en": "At least a week ahead; a separate trial appointment is offered.",
+            "ar": "قبل أسبوع على الأقل؛ ويُعطى موعد منفصل للتجربة."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Hizmete ve saç uzunluğuna göre belirlenir; güncel fiyat için salonu arayın. Bu demoda fiyat listesi yoktur.",
+            "en": "Prices depend on the service and hair length; call the salon for current prices. This demo has no price list.",
+            "ar": "تعتمد الأسعار على الخدمة وطول الشعر؛ اتصل بالصالون لمعرفة الأسعار الحالية. لا توجد قائمة أسعار في هذا العرض التجريبي."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hizmete ve saç uzunluğuna göre belirlenir; güncel fiyat için salonu arayın. Bu demoda fiyat listesi yoktur.",
+            "en": "Prices depend on the service and hair length; call the salon for current prices. This demo has no price list.",
+            "ar": "تعتمد الأسعار على الخدمة وطول الشعر؛ اتصل بالصالون لمعرفة الأسعار الحالية. لا توجد قائمة أسعار في هذا العرض التجريبي."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request an appointment",
+          "ar": "اطلب موعدًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Gün ve hizmeti yazın; en kısa sürede dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us the day and service; we reply as soon as we can. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب اليوم والخدمة وسنردّ في أقرب وقت. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Sakal & Saç",
@@ -2421,7 +2472,7 @@
           "ar": "Sakal & Saç"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Appointment form",
+          "ar": "نموذج الموعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Saç kesimi",
+              "en": "Haircut",
+              "ar": "قص شعر"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Sakal ve tıraş",
+              "en": "Beard and shave",
+              "ar": "لحية وحلاقة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Gelin saçı",
+              "en": "Bridal hair",
+              "ar": "تسريحة عروس"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Sakal & Saç"
         },
         "description": {
-          "tr": "Sakal & Saç, saç ve sakal kesimi sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Sakal cuts hair and beard. Images are representative and text is fictional.",
-          "ar": "يقدم لحا وشعر قصّة شعر ولحية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Sakal & Saç; kadın ve erkek saç kesimi, boya, sakal tıraşı ve gelin saçı sunan bir kuaför salonudur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Sakal & Saç is a hair salon offering women’s and men’s haircuts, colour, beard shaving and bridal hair. Images are representative and text is fictional.",
+          "ar": "Sakal & Saç صالون تجميل يقدّم قص الشعر للنساء والرجال والصبغة وحلاقة اللحية وتسريحات العروس. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Tek salon",
-          "en": "One salon",
-          "ar": "صالة واحدة"
-        },
-        "spot2": {
-          "tr": "Tüm adımlar aynı masada yürür.",
-          "en": "All steps are performed at the same table.",
-          "ar": "تسير كل الخطوات على نفس الطاولة."
-        },
-        "icon2": "verified",
-        "name3": {
           "tr": "Randevu defteri",
           "en": "Appointment book",
           "ar": "دفتر المواعيد"
         },
-        "spot3": {
-          "tr": "Her müşteri için not ve ürün kaydı.",
-          "en": "A note and product record for each customer.",
-          "ar": "ملاحظة وسجل المنتج لكل زبون."
+        "spot2": {
+          "tr": "Her müşteri için tercih ve işlem notu.",
+          "en": "Preferences and service notes for every client.",
+          "ar": "تفضيلات وملاحظات الخدمة لكل عميل."
         },
-        "icon3": "schedule",
+        "icon2": "event_available",
+        "name3": {
+          "tr": "Sakal köşesi",
+          "en": "Beard corner",
+          "ar": "ركن اللحية"
+        },
+        "spot3": {
+          "tr": "Klasik ustura tıraşı ve sakal bakımı için ayrı koltuk.",
+          "en": "A dedicated chair for classic razor shaves and beard care.",
+          "ar": "كرسي مخصص للحلاقة الكلاسيكية والعناية باللحية."
+        },
+        "icon3": "content_cut",
         "img": "guzellik-ekip-1.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:00 – 20:00",
+          "en": "Mon–Sat 09:00 – 20:00",
+          "ar": "الاثنين–السبت 09:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Randevu ve fiyat soruları için",
+          "en": "For appointments and price questions",
+          "ar": "للمواعيد وأسئلة الأسعار"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "6px",
         "title": {
-          "tr": "Keski hazırsa",
-          "en": "When the scissors are ready",
-          "ar": "حين تكون المقص جاهز"
+          "tr": "Randevunuzu alın",
+          "en": "Book your appointment",
+          "ar": "احجز موعدك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Randevu formunu doldurun; en kısa sürede dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the appointment form; we reply as soon as we can. No data is stored on this demo site.",
+          "ar": "املأ نموذج الموعد وسنردّ في أقرب وقت. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
