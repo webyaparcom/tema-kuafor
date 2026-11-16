@@ -359,7 +359,7 @@
   .b0001-yal-alinti { margin: 0; text-align: center; animation: b0001-yal-gel 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
   .b0001-yal-alinti[hidden] { display: none; }
   .b0001-yal-alinti + .b0001-yal-alinti { margin-block-start: 56px; }
-  .b0001-yal-puan { display: flex; justify-content: center; gap: 2px; margin: 0 0 18px; color: #f59e0b; }
+  .b0001-yal-puan { display: flex; justify-content: center; gap: 2px; margin: 0 0 18px; color: color-mix(in srgb, var(--mx-color-warning, #d97706) 65%, var(--mx-site-text, #1b1b1b)); }
   .b0001-yal-puan .material-symbols-outlined { font-size: 22px; font-variation-settings: "FILL" 1; }
   .b0001-yal-metin { margin: 0; }
   .b0001-yal-metin p {

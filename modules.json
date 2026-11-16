@@ -2118,7 +2118,7 @@
         "kartBg": "var(--mx-site-surface, #ffffff)",
         "cizgi": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "accentText": "#ffffff",
-        "yildiz": "#f59e0b",
+        "yildiz": "color-mix(in srgb, var(--mx-color-warning, #d97706) 65%, var(--mx-site-text, #1b1b1b))",
         "ust": {
           "tr": "Yorumlar",
           "en": "Reviews",
